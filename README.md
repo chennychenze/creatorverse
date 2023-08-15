@@ -36,12 +36,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+1. Content creators are displayed on the homepage, and each content creator item has their name, url to their channel/page, and description.
+2. Clicking on a content creator item takes the user to the single creator view page that has their name, url, and description.
+3. The user can edit a content creator to change their information, and updated item will be displayed on the homepage.
+4. Each content creator has their own unique URL.
+5. The user can delete a content creator.
+6. The user can add a new content creator filling out their name, url, and description, and then it is displayed on the homepage.
+
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 GIF tool here
 <!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
