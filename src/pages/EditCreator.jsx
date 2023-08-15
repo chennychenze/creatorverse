@@ -98,7 +98,9 @@ const EditCreator = () => {
       <h5>Updating a Content Creator</h5>
       <form onSubmit={handleFormSubmit}>
         <div>
-          <label>Name:</label>
+          <label>
+            <b>Creator's Name:</b>
+          </label>
           <input
             type="text"
             value={name}
@@ -106,7 +108,10 @@ const EditCreator = () => {
           />
         </div>
         <div>
-          <label>URL:</label>
+          <label>
+            <b>Social Media Link:</b>
+          </label>
+          <small>YouTube, Twitter, or Instagram</small>
           <input
             type="text"
             value={url}
@@ -114,7 +119,10 @@ const EditCreator = () => {
           />
         </div>
         <div>
-          <label>Description:</label>
+          <label>
+            <b>Description:</b>
+          </label>
+          <small>Who are they? What makes them interesting?</small>
           <textarea
             value={description}
             onChange={(e) => setDescription(e.target.value)}
