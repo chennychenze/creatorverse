@@ -39,12 +39,38 @@ Here's a walkthrough of implemented required features:
 GIF created with ScreenToGif
 
 - [x] **At least five content creators are displayed on the homepage of the app, and each content creator item includes their name, a link to their channel/page, and a short description of their content**
-![Demo](https://github.com/chennychenze/creatorverse/blob/main/1.gif)
+
+![](https://github.com/chennychenze/creatorverse/blob/main/1.gif)
+<br>
+<br>
+
 - [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+      
+![](https://github.com/chennychenze/creatorverse/blob/main/2.gif)
+<br>
+<br>
+
 - [x] **Each content creator has their own unique URL**
+
+![](https://github.com/chennychenze/creatorverse/blob/main/3.gif)
+<br>
+<br>
+
 - [x] **The user can edit a content creator to change their name, url, or description**
+
+![](https://github.com/chennychenze/creatorverse/blob/main/4.gif)
+<br>
+<br>
+
 - [x] **The user can delete a content creator**
+
+![](https://github.com/chennychenze/creatorverse/blob/main/5.gif)
+<br>
+<br>
+
 - [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
+
+![](https://github.com/chennychenze/creatorverse/blob/main/6.gif)
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
