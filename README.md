@@ -4,7 +4,7 @@ Submitted by: **Chenze Chen**
 
 About this web app: **Discover a personalized collection of top content creators using the Supabase API, coupled with seamless CRUD operations – create, read, update, and delete.**
 
-Time spent: **12** hours
+Time spent: **14** hours
 
 ## Required Features
 
@@ -29,27 +29,24 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] When in the process of editing a creator, a "Back to Creator" button provides users with the option to return to the creator's profile without making any changes to their information.
-* [x] When attempting to update a creator's URL that is already assigned to another creator in the database, a window alert will notify the user that they must select a unique URL for the editing process.
+* [x] When in the process of editing a creator, a "Back to Creator" button provides users with the option to return to the creator's profile without making any changes to their information
+* [x] When attempting to update a creator's URL that is already assigned to another creator in the database, a window alert will notify the user that they must select a unique URL for the editing process
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-1. Content creators are displayed on the homepage, and each content creator item has their name, url to their channel/page, and description.
-2. Clicking on a content creator item takes the user to the single creator view page that has their name, url, and description.
-3. The user can edit a content creator to change their information, and updated item will be displayed on the homepage.
-4. Each content creator has their own unique URL.
-5. The user can delete a content creator.
-6. The user can add a new content creator filling out their name, url, and description, and then it is displayed on the homepage.
+GIF created with ScreenToGif
+
+- [x] **At least five content creators are displayed on the homepage of the app, and each content creator item includes their name, a link to their channel/page, and a short description of their content**
+- [x] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
+- [x] **Each content creator has their own unique URL**
+- [x] **The user can edit a content creator to change their name, url, or description**
+- [x] **The user can delete a content creator**
+- [x] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
