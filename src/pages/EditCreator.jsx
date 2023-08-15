@@ -85,7 +85,7 @@ const EditCreator = () => {
         href={`/view/${creatorId}`}
         role="button"
         className="secondary"
-        style={{ marginBottom: "50px" }}
+        style={{ marginBottom: "50px", marginLeft: "20px" }}
       >
         BACK TO THE CREATOR
       </a>

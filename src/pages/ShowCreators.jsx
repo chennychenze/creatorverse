@@ -7,7 +7,12 @@ const ShowCreators = ({ contentCreators }) => {
     <div>
       <h1>CREATORVERSE</h1>
       <BtnViewAll />
-      <a href="/add" role="button" className="contrast">
+      <a
+        href="/add"
+        role="button"
+        className="contrast"
+        style={{ marginLeft: "20px" }}
+      >
         ADD A CREATOR
       </a>
       {contentCreators.length === 0 ? (

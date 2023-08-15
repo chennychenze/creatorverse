@@ -46,7 +46,7 @@ const ViewCreator = () => {
               rel="noopener noreferrer"
               style={{ marginTop: "20px", marginRight: "20px" }}
             >
-              Edit Creator
+              EDIT CREATOR
             </a>
             <a href="/" role="button" className="contrast">
               DELETE CREATOR

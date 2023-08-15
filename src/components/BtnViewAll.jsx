@@ -2,12 +2,7 @@ import React from "react";
 
 const BtnViewAll = () => {
   return (
-    <a
-      href="/"
-      role="button"
-      className="secondary"
-      style={{ marginRight: "20px" }}
-    >
+    <a href="/" role="button" className="secondary">
       VIEW ALL CREATORS
     </a>
   );
