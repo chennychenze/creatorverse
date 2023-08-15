@@ -11,6 +11,19 @@ const AddCreator = () => {
     e.preventDefault();
 
     try {
+      const { data: existingCreator } = await supabase
+        .from("creators")
+        .select("*")
+        .eq("url", url)
+        .single();
+
+      if (existingCreator) {
+        alert(
+          "The URL is already assigned to another creator. Please use a different URL."
+        );
+        return;
+      }
+
       const { data, error } = await supabase
         .from("creators")
         .insert([{ name, url, description }]);
