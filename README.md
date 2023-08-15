@@ -48,9 +48,11 @@ GIF created with ...  👉🏿 GIF tool here
 ## Notes
 
 While working on the Creatorverse app project, several challenges were encountered, each providing valuable learning experiences:
-1. Integration of Picocss Styles:
+
+- **Integration of Picocss Styles**:
 Implementing Picocss for styling the components presented a learning curve, as ensuring consistent styling across different components while adhering to Picocss's utility classes required careful planning and experimentation.
-2. Supabase Database Integration:
+
+- **Supabase Database Integration**:
 Incorporating Supabase for database operations involved understanding the Supabase API and handling asynchronous database calls. Configuring the database correctly, handling authentication, and dealing with data retrieval and updates were tasks that required focused attention.
 ## License
 
