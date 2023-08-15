@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import BtnViewAll from "../components/BtnViewAll";
 import { useParams } from "react-router-dom";
 import { supabase } from "../client";
 
@@ -29,14 +30,7 @@ const ViewCreator = () => {
   return (
     <div>
       <h1>CREATORVERSE</h1>
-      <a
-        href="/"
-        role="button"
-        className="secondary"
-        style={{ marginRight: "20px" }}
-      >
-        VIEW ALL CREATORS
-      </a>
+      <BtnViewAll />
       {creator ? (
         <article>
           <h2>{creator.name}</h2>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BtnViewAll from "../components/BtnViewAll";
 import { supabase } from "../client";
 
 const AddCreator = () => {
@@ -27,15 +28,8 @@ const AddCreator = () => {
   return (
     <div>
       <h1>CREATORVERSE</h1>
-      <a
-        href="/"
-        role="button"
-        className="secondary"
-        style={{ marginBottom: "50px" }}
-      >
-        VIEW ALL CREATORS
-      </a>
-      <form onSubmit={handleSubmit}>
+      <BtnViewAll />
+      <form onSubmit={handleSubmit} style={{ marginTop: "30px" }}>
         <label>
           <b>Creator's Name:</b>
         </label>

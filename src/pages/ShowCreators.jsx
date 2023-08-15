@@ -1,18 +1,12 @@
 import React from "react";
+import BtnViewAll from "../components/BtnViewAll";
 import Card from "../components/Card";
 
 const ShowCreators = ({ contentCreators }) => {
   return (
     <div>
       <h1>CREATORVERSE</h1>
-      <a
-        href="/"
-        role="button"
-        className="secondary"
-        style={{ marginRight: "20px" }}
-      >
-        VIEW ALL CREATORS
-      </a>
+      <BtnViewAll />
       <a href="/add" role="button" className="contrast">
         ADD A CREATOR
       </a>

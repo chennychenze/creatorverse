@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import BtnViewAll from "../components/BtnViewAll";
 import { useParams } from "react-router-dom";
 import { supabase } from "../client";
 
@@ -79,14 +80,7 @@ const EditCreator = () => {
   return (
     <div>
       <h1>CREATORVERSE</h1>
-      <a
-        href="/"
-        role="button"
-        className="secondary"
-        style={{ marginBottom: "50px", marginRight: "20px" }}
-      >
-        VIEW ALL CREATORS
-      </a>
+      <BtnViewAll />
       <a
         href={`/view/${creatorId}`}
         role="button"
