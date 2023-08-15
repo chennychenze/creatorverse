@@ -72,8 +72,6 @@ GIF created with ScreenToGif
 
 ![](https://github.com/chennychenze/creatorverse/blob/main/6.gif)
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 
 ## Notes
 
